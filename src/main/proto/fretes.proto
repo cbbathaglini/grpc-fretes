@@ -28,3 +28,8 @@ message FretesRequest {
 message FretesReply {
   string message = 1;
 }
+
+message ErrorDetails{
+  int32 code = 1;
+  string message = 2;
+}
